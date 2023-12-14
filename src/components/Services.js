@@ -41,7 +41,7 @@ const cardsData =[
 
       {
         data.map((data)=>(
-          <div className="col col-md-6 col-sm-6 col-lg-4 d-flex justify-content-center ">
+          <div className="col coxs  col-md-6 col-sm-6 col-lg-4 d-flex justify-content-center ">
             <CardMUI cardImageLink={`${data.cardImageLink}`}  cardTitle={`${data.cardTitle}`} cardDescription={`${data.cardDescription}`}/>
           </div>
         ))
@@ -67,7 +67,7 @@ const Services = () => {
   return (
     
   <div className="row">
-     <div className="col-lg-12 col-md-12 col-sm-12 w-100" style={{height:100}}>
+     <div className="col-12 col-lg-12 col-md-12 col-sm-12 w-100" style={{height:50, paddingTop:10}}>
         <Typography variant='h3' color='black' paddingLeft={4} >Our Services</Typography>  
     </div>
   <div className="row">

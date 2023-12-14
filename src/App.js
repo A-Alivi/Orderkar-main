@@ -1,16 +1,17 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Navbar from './components/Navbar'
+import Navbar from './components/NavBar1'
 import Header from './components/Header'
 import Services from './components/Services'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import About from './components/About'
 
+
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <Header />
       <Services /> 
       <About />
