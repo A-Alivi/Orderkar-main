@@ -23,12 +23,6 @@ const cardsData =[
     cardTitle:'Restaurant Analytics',
     cardDescription :'This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.'
    
-  },
-  {
-    cardImageLink:'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW9iaWxlJTIwYXBwfGVufDB8fDB8fHww',
-    cardTitle:'Mobile App',
-    cardDescription :'This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.'
-   
   }
 ];
 
@@ -41,7 +35,7 @@ const cardsData =[
 
       {
         data.map((data)=>(
-          <div className="col coxs  col-md-6 col-sm-6 col-lg-4 d-flex justify-content-center ">
+          <div className="col-12  col-md-6 col-sm-12 col-lg-4 d-flex justify-content-center ">
             <CardMUI cardImageLink={`${data.cardImageLink}`}  cardTitle={`${data.cardTitle}`} cardDescription={`${data.cardDescription}`}/>
           </div>
         ))

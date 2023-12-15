@@ -6,6 +6,7 @@ import Services from './components/Services'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import About from './components/About'
+import Prices from './components/Prices'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Header />
       <Services /> 
+      {/* <Prices/> */}
       <About />
       <Contact />
       <Footer />
