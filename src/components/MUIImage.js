@@ -36,9 +36,7 @@ function imageDisplay(){
                     width: 350,
                     maxHeight: { xs: 233, md: 167 },
                     maxWidth: { xs: 350, md: 250 },  
-                    margin: 4,
-                      
-
+                    margin: 4
                 }}
                 
                 alt=""
