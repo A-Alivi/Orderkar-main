@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Typography } from "@mui/material";
-import PriceCard from "./priceCard";
+import PriceCard from "./PriceCard.js";
 
 
 const pricingData=[
@@ -29,7 +29,7 @@ function Prices()
         </div>
         <div className="row ">
         
-        <PriceCard plan={pricingData.plan} price={pricingData.price}/>
+        <PriceCard  plan={pricingData.plan} price={pricingData.price}/>
 
 
         </div>
