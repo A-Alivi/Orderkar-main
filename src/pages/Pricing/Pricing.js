@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Typography } from "@mui/material";
 import PriceCard from "./PriceCard.js";
 
@@ -24,12 +24,22 @@ function Prices()
 {
     return(
         <>
-        <div className="bg-info-subtle d-flex justify-content-center ">
-        <Typography variant='h3' color='black' paddingLeft={4} >Packages</Typography>  
+        <div className="d-flex justify-content-center ">
+        <Typography variant='h3' color='black' >Packages</Typography>  
         </div>
         <div className="row ">
         
-        <PriceCard  plan={pricingData.plan} price={pricingData.price}/>
+        {
+            pricingData.map((pricingData)=>
+            {
+                return(
+                    <>
+                        <PriceCard  plan={pricingData.plan} price={pricingData.price}/>          
+                    </>
+                )
+
+            })
+        }
 
 
         </div>
