@@ -5,15 +5,15 @@ import PriceCard from "./PriceCard.js";
 
 const pricingData=[
     {
-        plan:'Basic',
+        plan:'2 Year Plan',
         price:'$20'
     },
     {
-        plan:'Standard',
+        plan:'1 Year Plan',
         price:'$30'
     },
     {
-        plan:'Premium',
+        plan:'Monthly Plan',
         price:'$50'
     }
 ]
@@ -27,7 +27,7 @@ function Prices()
         <div className="d-flex justify-content-center bg-body-secondary  ">
         <Typography variant='h3' color='black' >Packages</Typography>  
         </div>
-        <div className="row bg-body-secondary">
+        <div className="row" style={{backgroundColor:'rgb(238, 243, 250)'}}>
         
         {
             pricingData.map((pricingData)=>

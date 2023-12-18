@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "@mui/material";
 
 function PriceCard(props)
 {
@@ -12,7 +11,8 @@ function PriceCard(props)
               <div class="card " style={{width:'22rem'}}>
                         <div class="card-body">
                             <h5 class="card-title text-center">{plan}</h5>
-                            <h4 class="card-subtitle fw-bold  text-center py-2">{price}</h4>
+                            <button type="label" class="btn btn-warning text-center">Warning</button>
+                            <h3 class="card-subtitle fw-bold  text-center py-2 ">{price}</h3>
                             <p class="card-text">
                             <ul>
                                 <li></li>
@@ -20,8 +20,7 @@ function PriceCard(props)
                                 <li></li>    
                             </ul></p>
                             
-                            <Button variant="text" sx={{justifyContent:"center"}}> <a href="#" class="card-link">Get Started</a></Button>
-                        </div>
+                            <button type="button" class="btn btn-lg-block bg-success w-100 fs-3 fw-bold ">Select</button>                        </div>
                     </div> 
                     </div>      
         </>
