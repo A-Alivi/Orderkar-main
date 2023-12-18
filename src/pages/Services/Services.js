@@ -6,7 +6,7 @@ import CardMUI from './Card';
 
 const cardsData =[
   {
-    id:1,
+    
     cardImageLink:'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE1fHx3ZWJzaXRlfGVufDB8fDB8fHww',
     cardTitle:'Web App',
     cardDescription :'This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.',

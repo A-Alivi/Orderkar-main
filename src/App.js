@@ -1,6 +1,6 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Navbar from './pages/Navbar/NavBar1'
+import Navbar from './pages/Navbar/Navbar'
 import Header from './pages/Home/Home'
 import Services from './pages/Services/Services'
 import Footer from './pages/Footer/Footer'
