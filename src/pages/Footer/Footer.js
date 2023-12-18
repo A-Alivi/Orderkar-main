@@ -98,7 +98,6 @@ return(
                   <li class="ms-3"><a class="link-body-emphasis" href="#"><Icon name="X" width={30} height={30} color="blue"/></a></li>
                   <li class="ms-3"><a class="link-body-emphasis" href="#"><Icon name="Instagram" width={30} height={30} color="blue"/></a></li>
                   <li class="ms-3"><a class="link-body-emphasis" href="#"><Icon name="WhatsApp" width={30} height={30} color="blue"/></a></li>
-                  {/* <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlinkHref="#facebook"/></svg></a></li> */}
                 </ul>
               </div>
             </footer>
