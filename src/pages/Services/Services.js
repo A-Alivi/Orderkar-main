@@ -61,7 +61,7 @@ const Services = () => {
   return (
     
   <div className="row">
-     <div className="col-12 col-lg-12 col-md-12 col-sm-12 w-100" style={{height:50, paddingTop:10}}>
+     <div className="col-12 col-lg-12 col-md-12 col-sm-12 py-4 w-100" >
         <Typography variant='h3' color='black' paddingLeft={4} >Our Services</Typography>  
     </div>
   <div className="row">

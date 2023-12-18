@@ -1,11 +1,19 @@
 import React from 'react'
+import { Button } from '@mui/material'
 
 const Contact = () => {
+  const divStyle = {
+    backgroundImage: 'url("https://images.unsplash.com/photo-1508717272800-9fff97da7e8f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
+    backgroundSize: 'cover', // Adjust this based on your needs
+    backgroundPosition: 'center', // Adjust this based on your needs
+    width: '100%',
+    height: '100%', // Adjust this based on your needs
+  };
   return (
-    <section className='contact sect'>
-      <div className='container'>
-        <div className='row'>
-          <div className='col-md-6 mx-auto'>
+    <section className='contact sect' style={divStyle}>
+      <div className='container py-3' >
+        <div className='row d-flex justify-content-center'>
+          <div className='col-6'>
             <h2 className='text-center'>Contact Us</h2>
             <div className='mb-3'>
               <label htmlFor='formGroupExampleInput' className='form-label'>
@@ -54,7 +62,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <div className='d-flex justify-content-center'>
-              <button className='Cbutton'>Submit</button>
+              <Button variant='contained'>Submit</Button>
             </div>
           </div>
         </div>

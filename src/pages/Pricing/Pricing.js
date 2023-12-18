@@ -24,10 +24,10 @@ function Prices()
 {
     return(
         <>
-        <div className="d-flex justify-content-center ">
+        <div className="d-flex justify-content-center bg-body-secondary  ">
         <Typography variant='h3' color='black' >Packages</Typography>  
         </div>
-        <div className="row ">
+        <div className="row bg-body-secondary">
         
         {
             pricingData.map((pricingData)=>
