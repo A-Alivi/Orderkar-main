@@ -1,4 +1,5 @@
 import React from 'react'
+import Icon from './Icon';
 
 const Footer = () => {
   return (
@@ -92,9 +93,12 @@ return(
               <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
                 <p>&copy; 2023 Company, Inc. All rights reserved.</p>
                 <ul class="list-unstyled d-flex">
-                  <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use href="#twitter"/></svg></a></li>
-                  <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use href="#instagram"/></svg></a></li>
-                  <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use href="#facebook"/></svg></a></li>
+                  <li></li>
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"><Icon name="Facebook" width={30} height={30} color="blue"/> </a></li>
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"><Icon name="X" width={30} height={30} color="blue"/></a></li>
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"><Icon name="Instagram" width={30} height={30} color="blue"/></a></li>
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"><Icon name="WhatsApp" width={30} height={30} color="blue"/></a></li>
+                  {/* <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlinkHref="#facebook"/></svg></a></li> */}
                 </ul>
               </div>
             </footer>
