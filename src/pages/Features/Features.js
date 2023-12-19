@@ -1,5 +1,4 @@
 import React from "react";
-
 import FeatureCard from "./FeatureCard";
 import { Typography } from "@mui/material";
 
@@ -13,14 +12,14 @@ const featureData=[
     },
     {
         id:2,
-        image:'https://images.unsplash.com/photo-1595079676339-1534801ad6cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cXIlMjBjb2RlfGVufDB8fDB8fHww',
-        title:"QR Payments",
+        image:'https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEFJfGVufDB8fDB8fHww',
+        title:"AI Engines",
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quo.'
     },
     {
         id:3,
-        image:'https://images.unsplash.com/photo-1595079676339-1534801ad6cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cXIlMjBjb2RlfGVufDB8fDB8fHww',
-        title:"QR Payments",
+        image:'https://images.unsplash.com/photo-1614267119077-51bdcbf9f77a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGF5bWVudCUyMG1ldGhvZHxlbnwwfHwwfHx8MA%3D%3D',
+        title:"Multiple Payment Options",
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quo.'
     }
 ]
@@ -36,7 +35,7 @@ function mapFeature()
                     
                         
                             <div className="d-flex justify-content-center col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <FeatureCard image={data.image} title={data.image} description={data.description}/>
+                                <FeatureCard image={data.image} title={data.title} description={data.description}/>
                             </div>     
                     
                    
