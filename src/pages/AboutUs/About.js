@@ -1,11 +1,11 @@
 import React from 'react'
-import ab1 from 'D:/OrderKar/Orderkar-main/Orderkar-main/src/assets/images/ab 1 (1).svg'
+
 import { Typography } from '@mui/material';
 
 
 const About = () => {
 
-  const aboutImaage = "D:/OrderKar/Orderkar-main/Orderkar-main/src/assets/images/ab 1 (1).svg"
+  
   return (
       <div className='row bg-body-secondary'>
         <div className="col col-12 col-md-12 col-lg-6 col-xl-6">
@@ -23,8 +23,8 @@ const About = () => {
           </div>
           
         <div className="col-12 col col-12 col-md-12 col-lg-6 p-5 col-xl-6 d-flex justify-content-center">
-            <div className='card border-0 bg-transparent'>
-              <img src={ab1} alt='About Us' className='img-fluid' />
+            <div className='card border-0 bg-transparent '>
+              <img src={require('../../assets/images/about-us/photo-2nd.avif')} height={300} alt='About Us' className='' />
             </div>
          
         </div>
