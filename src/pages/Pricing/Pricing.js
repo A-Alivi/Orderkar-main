@@ -35,7 +35,7 @@ function Prices()
 {
     return(
         <>
-        <div className="d-flex justify-content-center   " style={{backgroundColor:'rgb(238, 243, 250)'}}>
+        <div className="row px-5 py-2  " style={{backgroundColor:'rgb(238, 243, 250)'}}>
         <Typography variant='h3' color='black' >Packages</Typography>  
         </div>
         <div className="row" style={{backgroundColor:'rgb(238, 243, 250)'}}>

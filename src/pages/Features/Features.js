@@ -52,7 +52,7 @@ function Features()
     return(
         <>
         <section className=" bg-body-secondary py-2">
-            <div className=" d-flex justify-content-center">
+            <div className="row px-5 py-2">
                 <Typography variant="h3" > Features</Typography>
             </div>
             <div className="row ">
