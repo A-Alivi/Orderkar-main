@@ -2,15 +2,16 @@ import React from "react";
 import { Box, Card, CardContent, CardActions, Button, Typography, CardMedia } from "@mui/material";
 
 
-
-function Card(props)
+function FeatureCard(props)
 {
+    // const image='https://images.unsplash.com/photo-1595079676339-1534801ad6cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cXIlMjBjb2RlfGVufDB8fDB8fHww';
+
     const image = props.image;
     const title = props.title;
     const description = props.description;
     return(
         <div>
-            <Box width='350px' marginBottom='2rem'>
+            <Box width='350px' marginBottom='2rem' marginTop={'2rem'}>
                 <Card>
                     <CardMedia component='img' height='140' image={image}/>
                     <CardContent>
@@ -32,4 +33,4 @@ function Card(props)
 
 }
 
-export default Card;
+export default FeatureCard;

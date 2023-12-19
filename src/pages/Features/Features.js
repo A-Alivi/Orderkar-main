@@ -1,6 +1,6 @@
 import React from "react";
 
-import Card from "../Services/Card";
+import FeatureCard from "./FeatureCard";
 import { Typography } from "@mui/material";
 
 
@@ -25,6 +25,27 @@ const featureData=[
     }
 ]
 
+function mapFeature()
+{
+    return(
+        <>
+        {
+            
+                featureData.map((data)=>(
+                
+                    
+                        
+                            <div className="d-flex justify-content-center col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                <FeatureCard image={data.image} title={data.image} description={data.description}/>
+                            </div>     
+                    
+                   
+                ))
+            
+        }
+        </>
+    );
+}
 
 function Features()
 {
@@ -37,16 +58,7 @@ function Features()
             </div>
             <div className="row ">
                 {
-                    featureData.map((data)=>{
-                    
-                        return(
-                            <>
-                                <div className="d-flex justify-content-center col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                    <Card key={data.id}/>
-                                </div>     
-                            </>
-                        )
-                    })
+                    mapFeature()
                 }
             </div>
         </section>
