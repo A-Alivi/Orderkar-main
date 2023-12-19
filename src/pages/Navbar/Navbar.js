@@ -17,9 +17,7 @@ function Navbar()
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            {/* <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li> */}
+           
             <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Services
@@ -38,7 +36,10 @@ function Navbar()
               <a class="nav-link" href="#">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link " href="#">Acout Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Contact Us</a>
             </li>
           </ul>
             <form class="form-inline my-2 my-lg-0 d-flex justify-content-end ">
