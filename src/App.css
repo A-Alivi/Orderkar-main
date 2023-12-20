@@ -1,24 +1,4 @@
-
-/* Footer */
-
-
-
-
-
-
-
-
-.socialIcons a:hover {
-  background-color: black;
-  transition: 0.5s;
-}
-
-.socialIcons a:hover i {
-  color: white;
-  transition: 0.5s;
-}
-
-.footernav {
-  margin: 20px 0;
-  color: white;
+#root{
+  padding-left: 10dvh;
+  padding-right: 10dvh;
 }

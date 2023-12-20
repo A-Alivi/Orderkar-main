@@ -4,7 +4,7 @@ function Navbar()
 {
     return(
         <>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="navbar navbar-expand-lg  navbar-light bg-light">
           <a class="navbar-brand " style={{display:"inline-block"}} href="#">
           <img src={require('../../assets/images/logo/ORDERKARtagline.png')}  width="150" height="70" alt=""/>
         </a>  
@@ -19,14 +19,14 @@ function Navbar()
             </li>
            
             <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Services
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Web App</a>
+                    <a class="dropdown-item" href="#">Mobile App</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Restaurent Analytics</a>
                   </div>
             </li>
             <li class="nav-item">

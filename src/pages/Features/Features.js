@@ -51,7 +51,7 @@ function Features()
 
     return(
         <>
-        <section className=" bg-body-secondary py-2">
+        <section className=" py-2">
             <div className="row px-5 py-2">
                 <Typography variant="h3" > Features</Typography>
             </div>
