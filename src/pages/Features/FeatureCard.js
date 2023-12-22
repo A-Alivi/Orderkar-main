@@ -5,6 +5,11 @@ import { Box,Card, CardContent, CardActions, Button, Typography, CardMedia } fro
 
 
 
+
+
+
+
+
 function FeatureCard(props)
 {
     const image = props.image;
@@ -12,6 +17,7 @@ function FeatureCard(props)
     const description = props.description;
     return(
         <div>
+            
             <Box width='350px' marginBottom='2rem' marginTop={'2rem'}>
                 <Card>
                     <CardMedia component='img' height='140' image={image}/>
@@ -28,7 +34,7 @@ function FeatureCard(props)
                         <Button size="small">Share</Button>
                     </CardActions>
                 </Card>
-            </Box>
+            </Box> 
         </div>
     );
 

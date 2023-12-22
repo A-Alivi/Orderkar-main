@@ -25,7 +25,7 @@ function Navbar()
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Web App</a>
                     <a class="dropdown-item" href="#">Mobile App</a>
-                    <div class="dropdown-divider"></div>
+                    {/* <div class="dropdown-divider"></div> */}
                     <a class="dropdown-item" href="#">Restaurent Analytics</a>
                   </div>
             </li>
