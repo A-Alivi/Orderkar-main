@@ -38,21 +38,27 @@ function Navbar()
               <a class="nav-link fw-bold" href="#">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" href="#">About-Us</a>
+              <a class="nav-link fw-bold" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" href="#">Contact-US</a>
+              <a class="nav-link fw-bold" href="#">Contact</a>
             </li>
           </ul>
+       
         </div>
-        <nav class="navbar navbar-light collapse navbar-collapse bg-light">
-  <div class="container-fluid">
-    <form class="d-flex">
+         <nav class="navbar navbar-light collapse navbar-collapse bg-light">
+  <div class="container-fluid justify-content-end">
+    <form class="d-flex form-inline my-2 my-lg-0">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
       <button class="btn btn-outline-success" type="submit">Search</button>
     </form>
   </div>
-</nav>
+</nav> 
+{/* <nav class="navbar navbar-light collapse navbar-collapse bg-light d-flex form-inline">
+   <form class="  form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form></nav> */}
       </div>
     </nav>
   </header>
@@ -92,14 +98,16 @@ function Navbar()
             </li>
       </ul>
       <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
+        <div class="container-fluid ">
           <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </div>
-      </nav>
+      </nav> 
+     
     </div>
+    
   </div>
         </>
     );

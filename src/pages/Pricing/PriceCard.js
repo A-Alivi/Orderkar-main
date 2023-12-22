@@ -11,8 +11,8 @@ function PriceCard(props)
     
     return(
         <>
-        <div className="col-12 col-sm-6 col-md-4 col-lg-4 bg-transparent d-flex justify-content-center py-4 ">
-              <div class="card " style={{width:'22rem'}}>
+        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 bg-transparent d-flex justify-content-center py-4 ">
+               <div class="card " style={{width:'350px'}}>
                         <div class="card-body ">
                                 <h5 class="card-title text-center">{plan}</h5>
                                 <div className="d-flex justify-content-center "><button type="label" class="btn btn-warning ">Save {save}</button> </div>
@@ -22,7 +22,7 @@ function PriceCard(props)
                                 <button type="button" class="btn btn-lg-block bg-success w-100 fs-3">Select</button>
                            
                         </div>
-                    </div> 
+                    </div>  
                     </div>      
         </>
     )

@@ -5,9 +5,8 @@ function Home(){
 
   return(
     <div className="bg-body-secondary">
-    <div className="col-12 h-50 bg-transparent px-4" > 
-      <div id="carouselExampleControls" class="carousel slide" style={{height:'30rem'}} data-bs-ride="carousel">
-        <div class="carousel-inner" style={{height:'30rem'}}>
+      <div id="carouselExampleControls" class="carousel slide"  data-bs-ride="carousel">
+        <div class="carousel-inner">
           <div class="carousel-item active" >
       
           <img src={require('../../assets/images/home/Hero-image-min-min.webp')} class="d-block w-100" alt="..."/>
@@ -27,11 +26,11 @@ function Home(){
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>  
-    </div>
-    <div className="col-12 bg-transparent d-flex justify-content-center  ">
-    <Typography sx={{color:'black'}} variant='h3'>Ordering Made Easy,<br /> Get your Order at Your Doorstep</Typography>  
+      </div> 
+    <div className=" bg-transparent d-flex justify-content-center px-5 py-4  h1 fw-bold ">
     
+    Ordering Made Easy,<br /> Get your Order at Your Doorstep.
+   
     </div>
     </div>
     

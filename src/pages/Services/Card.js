@@ -9,8 +9,8 @@ function CardMUI(props)
     const cardTitle = props.cardTitle;
     const cardDescription = props.cardDescription;
     return(
-        <div>
-            <Box  width='350px' marginBottom='2rem'>
+        <div className="d-flex justify-content-center bg-transparent" style={{marginBottom:'2rem'}}>
+            <Box  width='350px'>
                 <Card>
                     <CardMedia component='img' height='140' image={cardImageLink}/>
                     <CardContent>
