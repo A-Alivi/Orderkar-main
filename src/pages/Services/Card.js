@@ -1,5 +1,8 @@
 import React from "react";
 import { Box, Card, CardContent, CardActions, Button, Typography, CardMedia } from "@mui/material";
+
+  
+
 function CardMUI(props)
 {
     const cardImageLink = props.cardImageLink;
@@ -7,7 +10,7 @@ function CardMUI(props)
     const cardDescription = props.cardDescription;
     return(
         <div>
-            <Box width='350px' marginBottom='2rem'>
+            <Box  width='350px' marginBottom='2rem'>
                 <Card>
                     <CardMedia component='img' height='140' image={cardImageLink}/>
                     <CardContent>

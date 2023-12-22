@@ -4,50 +4,87 @@ function Navbar()
 {
     return(
         <>
-          <nav class="navbar navbar-expand-lg  navbar-light bg-light">
-          <a class="navbar-brand " style={{display:"inline-block"}} href="#">
-          <img src={require('../../assets/images/logo/ORDERKARtagline.png')}  width="150" height="70" alt=""/>
-        </a>  
-        <a class="navbar-brand fw-bolder " href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
+          ☰
         </button>
+        <span class="navbar-brand">
+        <a class="navbar-brand " style={{display:"inline-block"}} href="#">
+          <img src={require('../../assets/images/logo/ORDERKARtagline.png')}  width="150" height="70" alt=""/>
+        </a> 
+        </span>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fw-bold " href="#">Home</a>
             </li>
-           
             <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Services
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Web App</a>
-                    <a class="dropdown-item" href="#">Mobile App</a>
-                    {/* <div class="dropdown-divider"></div> */}
-                    <a class="dropdown-item" href="#">Restaurent Analytics</a>
+                    <a class="dropdown-item fw-bold" href="#">Web App</a>
+                    <a class="dropdown-item fw-bold" href="#">Mobile App</a>
+                    <a class="dropdown-item fw-bold" href="#">Restaurent Analytics</a>
                   </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link fw-bold" href="#">Packages</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link fw-bold" href="#">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">About Us</a>
+              <a class="nav-link fw-bold" href="#">About-Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Contact Us</a>
+              <a class="nav-link fw-bold" href="#">Contact-US</a>
             </li>
           </ul>
-            <form class="form-inline my-2 my-lg-0 d-flex justify-content-end ">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
         </div>
-      </nav>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasLabel">Menu</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav">
+      <li class="nav-item">
+              <a class="nav-link fw-bold " href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item fw-bold" href="#">Web App</a>
+                    <a class="dropdown-item fw-bold" href="#">Mobile App</a>
+                    <a class="dropdown-item fw-bold" href="#">Restaurent Analytics</a>
+                  </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">About-Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">Contact-US</a>
+            </li>
+      </ul>
+    </div>
+  </div>
         </>
     );
 }
