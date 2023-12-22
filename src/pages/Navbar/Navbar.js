@@ -17,7 +17,7 @@ function Navbar()
         </a> 
         </span>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ">
             <li class="nav-item">
               <a class="nav-link fw-bold " href="#">Home</a>
             </li>
@@ -45,6 +45,14 @@ function Navbar()
             </li>
           </ul>
         </div>
+        <nav class="navbar navbar-light collapse navbar-collapse bg-light">
+  <div class="container-fluid">
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
       </div>
     </nav>
   </header>
@@ -83,6 +91,14 @@ function Navbar()
               <a class="nav-link fw-bold" href="#">Contact-US</a>
             </li>
       </ul>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
     </div>
   </div>
         </>
