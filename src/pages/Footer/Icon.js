@@ -1,4 +1,4 @@
-import { faHatWizard } from '@fortawesome/free-solid-svg-icons';
+
 import React from 'react';
 
 const Icon = ({ name, width, height, color }) => {

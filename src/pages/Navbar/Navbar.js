@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar()
 {
@@ -19,12 +20,12 @@ function Navbar()
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ">
             <li class="nav-item">
-              <a class="nav-link fw-bold " href="#">Home</a>
+            <Link className="nav-link fw-bold" to="/home">Home</Link>            
             </li>
             <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <Link class="nav-link dropdown-toggle fw-bold"  href="/services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Services
-                  </a>
+                  </Link>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item fw-bold" href="#">Web App</a>
                     <a class="dropdown-item fw-bold" href="#">Mobile App</a>
@@ -32,16 +33,16 @@ function Navbar()
                   </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" href="#">Packages</a>
+            <Link className="nav-link fw-bold" to="/prices">Prices</Link>            
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" href="#">Features</a>
+              <a class="nav-link fw-bold" href="/features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" href="#">About</a>
+              <a class="nav-link fw-bold" href="/about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" href="#">Contact</a>
+              <a class="nav-link fw-bold" href="/contact">Contact</a>
             </li>
           </ul>
        
@@ -54,11 +55,7 @@ function Navbar()
     </form>
   </div>
 </nav> 
-{/* <nav class="navbar navbar-light collapse navbar-collapse bg-light d-flex form-inline">
-   <form class="  form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form></nav> */}
+
       </div>
     </nav>
   </header>
@@ -72,7 +69,7 @@ function Navbar()
     <div class="offcanvas-body">
       <ul class="navbar-nav">
       <li class="nav-item">
-              <a class="nav-link fw-bold " href="#">Home</a>
+              <a class="nav-link fw-bold " to="/home" href="#">Home</a>
             </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
