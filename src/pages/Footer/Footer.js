@@ -11,8 +11,8 @@ return(
             <footer class="py-0">
               <div class="d-flex flex-column flex-sm-row justify-content-between py-4  border-top">
               <form >
-                    <h5>Subscribe to our newsletter</h5>
-                    <p>Get monthly updates about our products.</p>
+                    <h5 className='py-1'>Subscribe to our newsletter</h5>
+                    <h6 className='py-1'>Get monthly updates about our products.</h6>
                     <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                       <label for="newsletter1" class="visually-hidden">Email address</label>
                       <input id="newsletter1" type="text" class="form-control" placeholder="Email address"/>
